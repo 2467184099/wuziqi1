@@ -133,9 +133,9 @@ public class WuZiQiPanel extends View {
             String text = ISWhitePiece ? "白棋胜利" : "黑棋胜利";
             Toast.makeText(getContext(), text, Toast.LENGTH_SHORT).show();
         }
-            if (whiteArray.size()+blackArray.size()==100){
-                Toast.makeText(getContext(), "平局", Toast.LENGTH_SHORT).show();
-            }
+        if (whiteArray.size() + blackArray.size() == 100) {
+            Toast.makeText(getContext(), "平局", Toast.LENGTH_SHORT).show();
+        }
     }
 
     //五子连线
